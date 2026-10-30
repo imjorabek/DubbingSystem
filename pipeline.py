@@ -7,7 +7,7 @@ from elevenlabs.client import ElevenLabs
 OPENAI_API_KEY = os.getenv("OPENAI_API_KEY", "YOUR_OPENAI_API_KEY")
 ELEVENLABS_API_KEY = os.getenv("ELEVENLABS_API_KEY", "YOUR_ELEVENLABS_API_KEY")
 
-openai_client = OpenAI(api_key=OPENAI_API_KEY)
+openai_client = OpenAI(api_key=OPENAI_API_KEY) 
 elevenlabs_client = ElevenLabs(api_key=ELEVENLABS_API_KEY)
 
 
